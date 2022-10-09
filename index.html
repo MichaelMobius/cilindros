@@ -54,7 +54,7 @@
 				//var geometry = new THREE.CylinderBufferGeometry( 0, 0.05, 0.2, 32 ).rotateX( Math.PI / 2 );
 				var objectLoader = new THREE.ObjectLoader();
                 objectLoader.load( "cilindros.json", function ( obj ) {
-                	obj.scale.set( .01, .01, .01 );
+                	obj.scale.set( .005, .005, .005 );
 				 	scene.add( obj );
 
 				} );
